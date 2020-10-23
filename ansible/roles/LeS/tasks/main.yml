@@ -1,0 +1,5 @@
+---
+# tasks file for LeS
+- name: change name
+  hostname:
+    name: "nsapoold05"

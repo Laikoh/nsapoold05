@@ -1,0 +1,8 @@
+---
+# tasks file for create_LeS
+- hosts: all
+  tasks:
+    - name: create leS
+      user:
+        name: marvin
+        password: NsaPool42

@@ -1,0 +1,6 @@
+---
+# tasks file for custom-leS
+- hosts: all
+  tasks:
+    - name: elle envoie dm je laisse vu
+      shell: echo "Welcome to my server!!" >> /etc/motd

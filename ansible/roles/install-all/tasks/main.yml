@@ -1,0 +1,6 @@
+---
+# tasks file for install-all
+- hosts: all
+  tasks:
+    - name: on installe tout le bousin
+      shell: apt-get update && apt-get install -y vim git tree htop curl emacs net-tools sudo make unzip python3 python3-pip
